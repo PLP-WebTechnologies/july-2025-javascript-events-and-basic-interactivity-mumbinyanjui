@@ -1,0 +1,48 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+/* FAQ styling */
+.faq-content {
+  display: none;
+  margin: 5px 0 15px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-left: 4px solid #007bff;
+}
+
+.dark-mode .faq-content {
+  background: #333;
+  border-left: 4px solid #0af;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 5px;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
